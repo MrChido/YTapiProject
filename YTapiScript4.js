@@ -10,7 +10,7 @@ $('#seek').click(function(){
 });
 function Store(data){
   //query data storage-video titles and videoId's
-for(var s=0; s<=5; s++){
+for(var s=0; s<=6; s++){
   $('#R'+s)
   .html("<a href='https://www.youtube.com/watch?v=" + data[s].id.videoId +"'><img src='"+data[s].snippet.thumbnails.medium.url + "'>" + data[s].snippet.title +"</a>" );
 };
